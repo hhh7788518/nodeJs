@@ -12,7 +12,7 @@ eventEmitter.on("handle", function handle() {
     eventEmitter.emit("over")
 });
 eventEmitter.on("over",function overHandle() {
-    console.log('over')
+    console.log('over1')
 });
 
 
